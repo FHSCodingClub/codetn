@@ -1,0 +1,168 @@
+* {
+  font-family: 'Oleo Script', cursive, sans-serif;
+}
+
+body {
+  background: white url(https://images.unsplash.com/photo-1428353247902-27314a5b4a72?q=80&fm=jpg&s=cfac591f2abd4e37cb1aa0232b123084) no-repeat fixed center center;
+  background-color: #fff;
+  color: #FFFFFF;
+}
+#footer p a {
+  color: white;
+  text-decoration: none;
+}
+#footer p a:hover {
+  color: #996633;
+  text-decoration: none;
+} 
+#footer p a:visited {
+  color: #130D06;
+}
+
+/*nav bar */
+/*nav highlight color:#005C00 */
+.navbar-default {
+  background-color: #213622;
+  border-color: #a1bda8;
+  padding-top: 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+z-index: 10000;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #213622;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #213622;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #213622;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #213622;
+  background-color: #a1bda8;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #213622;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #213622;
+  background-color: #a1bda8;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #213622;
+  background-color: #a1bda8;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #a1bda8;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #a1bda8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #213622;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #213622;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #213622;
+    background-color: #a1bda8;
+  }
+}
+.navbar-brand { 
+  margin-left: auto; margin-right: auto;
+  margin-bottom: auto; margin-top: auto;
+  position: relative; 
+  top:-7.5px;
+}
+/* nav bar */
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #006B24;
+  background-color:#006B24;
+  color:#fafafa;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#006B24;
+}
+
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+color: white;
+}
+
+html, body, #container { height: 100%; margin-bottom: 10px;}
+body > #container { height: auto; min-height: 100%; }
+
+.greighty{
+    float: center;
+    background: #DDD;
+    width:80%;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.9;
+  }
+
+.centered {
+  text-align: center;
+}

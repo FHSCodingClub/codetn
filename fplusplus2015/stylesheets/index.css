@@ -1,0 +1,86 @@
+.results{
+    top: 30%;
+    float: center;
+    background: #DDD;
+    width:80%;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.9;
+}
+.why {
+  z-index: 1;
+}
+.why .center-brand {
+  float: center;
+  color: white;
+  text-decoration: none;
+  font-size: 80px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  padding-top: 80px;
+}
+
+.why a p {
+  display:none;
+  color: white;
+}
+
+
+.why a:hover p {
+  display:block;
+  color: #FFFFFF;
+}
+
+.why p {
+  float: center;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  padding-top: 90px;
+}
+
+/*search bar */
+.why .input-group{
+ z-index: 9000;
+ width: 50%;
+ position: fixed;
+ top: 60%;
+ left: 25%;
+ right: -25%;
+ opacity: .6;
+ border-color:transparent;
+ color:#003300;
+ transition: opacity .25s ease-in-out;
+ -moz-transition: opacity .25s ease-in-out;
+ -webkit-transition: opacity .25s ease-in-out;
+}
+
+.input-group:hover {
+  opacity: .9;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color:#003300;
+  opacity: 1;
+}
+
+:-moz-placeholder {
+  color:#003300;
+  opacity:1;
+}
+
+::-moz-placeholder {
+  color:#003300;
+  opacity:1;
+}
+
+:-ms-input-placeholder {
+  color:#003300;
+  opacity:1;
+}
